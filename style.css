@@ -568,6 +568,9 @@ footer {
   .contact-info {
     width: 100%;
   }
+  .uil-envelope{
+    margin-bottom: 10%;
+  }
   .project-container {
     justify-content: center;
   }

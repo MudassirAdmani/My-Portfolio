@@ -24,7 +24,7 @@ function headerShadow() {
   }
 }
 let typingEffect = new Typed(".typedText", {
-  strings: ["Front-End Developer", "Web Developer"],
+  strings: ["Web Developer"],
   loop: true,
   typeSpeed: 100,
   backSpeed: 80,
@@ -34,7 +34,7 @@ const sr = ScrollReveal({
   origin: "top",
   distance: "80px",
   duration: 2000,
-  reset: true,
+  reset: false,
 });
 // Home
 sr.reveal(".featured-text-card", {});
@@ -50,7 +50,7 @@ const srLeft = ScrollReveal({
   origin: "left",
   distance: "80px",
   duration: 2000,
-  reset: true,
+  reset: false,
 });
 srLeft.reveal(".about-info", { delay: 100 });
 srLeft.reveal(".contact-info", { delay: 100 });
@@ -58,7 +58,7 @@ const srRight = ScrollReveal({
   origin: "right",
   distance: "80px",
   duration: 2000,
-  reset: true,
+  reset: false,
 });
 srRight.reveal(".skills-box", { delay: 100 });
 srRight.reveal(".form-control", { delay: 100 });
